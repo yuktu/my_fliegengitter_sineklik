@@ -1,0 +1,127 @@
+body {
+  background-color: black;  /* schwarzer Hintergrund */
+  color: white;             /* weiße Schrift */
+  margin: 0;
+  font-family: Georgia, ;
+}
+
+header {
+  display: flex;            /* Flexbox für nebeneinander */
+  align-items: center;      /* Zentriert die Elemente vertikal */
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 135px;             /* Logo-Höhe */
+  margin-right: 12px;       /* Abstand zwischen Logo und Links */
+}
+
+nav {
+  display: flex;            /* Damit die Links nebeneinander sind */
+}
+
+nav a {
+  text-decoration: none;    /* Keine Unterstreichung der Links */
+  color: white;             /* Weiße Links */
+  margin-right: 20px;       /* Abstand zwischen den Links */
+ 
+}
+
+.banner {
+  width: 100%;              /* Bild volle Breite */
+  max-height: 600px;        /* Maximalhöhe */
+  object-fit: cover;        /* Bildgröße anpassen */
+}
+
+/* Stil für den ganzen Einleitungstext */
+.einleitung {
+  text-align: center;           /* Zentriert den Text horizontal */
+  max-width: 729px;             /* Maximalbreite – damit der Text nicht zu breit ist */
+  margin: 40px auto 20px;       /* Außenabstand: oben 40px, unten 20px, links/rechts automatisch (zentriert) */
+  color: white;                  /* Dunkelgraue Schriftfarbe */
+}
+
+/* Stil für die Überschrift in der Einleitung */
+.einleitung h2 {
+  font-size: 20px;              /* Schriftgröße etwas größer als normal */
+  margin-bottom: 10px;          /* Abstand unterhalb der Überschrift */
+}
+
+/* Stil für den Fließtext in der Einleitung */
+.einleitung p {
+  font-size: 16px;              /* Normale Schriftgröße */
+}
+
+
+/* Container für alle Produkt-Boxen */
+.produkt-container {
+  margin-top: 101px;
+  display: flex;                      /* Layout als Flexbox (nebeneinander) */
+  flex-wrap: wrap;                   /* Wenn zu eng: neue Zeile beginnen */
+  justify-content: center;           /* Zentriert alle Boxen horizontal */
+  gap: 80px;                         /* Abstand zwischen den Boxen */
+  text-decoration: none;
+}
+
+/* Einzelne Produktbox */
+.produkt-box {
+  background-color: white;           /* Weißer Hintergrund */
+  width: 220px;                      /* Feste Breite für jede Box */
+  text-align: center;                /* Text zentriert */
+  padding: 20px;                     /* Innenabstand rundherum */
+  border-radius: 10px;               /* Abgerundete Ecken */
+  text-decoration: none;
+}
+
+/* Wenn man mit der Maus drüberfährt */
+.produkt-box:hover {
+  transform: scale(1.03);            /* Box wird leicht größer */
+  text-decoration: none;
+}
+
+/* Das Bild in der Produktbox */
+.produkt-box img {
+  width: 144px;                      /* Breite des Bildes */
+  height: 100px;                     /* Höhe des Bildes */
+  margin-bottom: 15px;               /* Abstand zum Text darunter */
+}
+
+/* Produktname (Überschrift) */
+.produkt-box h3 {
+  font-size: 16px;                   /* Schriftgröße */
+  color: #003366;                    /* Dunkelblaue Farbe */
+  margin-bottom: 10px;               /* Abstand nach unten */
+  text-decoration: none;
+}
+
+/* Kleinere Infos, z. B. Firmenname */
+.produkt-box p {
+  font-size: 14px;                   /* Etwas kleinerer Text */
+  color: #e51313;                    /* Grauer Farbton */
+  text-decoration: none;
+}
+
+
+/* Footer */
+.site-footer {
+  background-color: #333;       /* Dunkelgrauer Hintergrund */
+  color: white;                 /* Weiße Schrift */
+  padding: 20px;                /* Abstand oben, unten, links, rechts */
+  text-align: center;           /* Zentrierter Text */
+  margin-top: 132px;
+}
+
+.footer-column ul {
+  list-style: none;             /* Keine Aufzählungszeichen */
+  padding: 0;                   /* Kein innerer Abstand */
+}
+
+.footer-column a {
+  color: #ccc;                  /* Linkfarbe */
+  text-decoration: none;        /* Keine Unterstreichung */
+}
+
+.footer-column a:hover {
+  text-decoration: underline;   /* Unterstrich bei Hover */
+}

@@ -1,0 +1,98 @@
+body {
+  background-color: black;  /* schwarzer Hintergrund */
+  color: white;             /* weiße Schrift */
+  margin: 0;
+  font-family: Georgia, ;
+}
+
+header {
+  display: flex;            /* Flexbox für nebeneinander */
+  align-items: center;      /* Zentriert die Elemente vertikal */
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 135px;             /* Logo-Höhe */
+  margin-right: 12px;       /* Abstand zwischen Logo und Links */
+}
+
+nav {
+  display: flex;            /* Damit die Links nebeneinander sind */
+}
+
+nav a {
+  text-decoration: none;    /* Keine Unterstreichung der Links */
+  color: white;             /* Weiße Links */
+  margin-right: 20px;       /* Abstand zwischen den Links */
+ 
+}/* Hintergrund und Schrift */
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* Überschrift */
+h1 {
+  text-align: center;
+}
+
+/* Box um das Formular */
+.termin-box {
+  background: white;
+  color: black;
+  padding: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Beschriftungen */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Eingabefelder */
+input,
+textarea {
+  width: 80%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Footer */
+.site-footer {
+  background-color: #333;       /* Dunkelgrauer Hintergrund */
+  color: white;                 /* Weiße Schrift */
+  padding: 20px;                /* Abstand oben, unten, links, rechts */
+  text-align: center;           /* Zentrierter Text */
+  margin-top: 132px;
+}
+
+.footer-column ul {
+  list-style: none;             /* Keine Aufzählungszeichen */
+  padding: 0;                   /* Kein innerer Abstand */
+}
+
+.footer-column a {
+  color: #ccc;                  /* Linkfarbe */
+  text-decoration: none;        /* Keine Unterstreichung */
+}
+
+.footer-column a:hover {
+  text-decoration: underline;   /* Unterstrich bei Hover */
+}

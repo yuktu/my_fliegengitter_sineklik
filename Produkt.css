@@ -1,0 +1,73 @@
+body {
+  background-color: black;  /* schwarzer Hintergrund */
+  color: white;             /* weiße Schrift */
+  margin: 0;
+  font-family: Georgia, ;
+}
+
+header {
+  display: flex;            /* Flexbox für nebeneinander */
+  align-items: center;      /* Zentriert die Elemente vertikal */
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 135px;             /* Logo-Höhe */
+  margin-right: 12px;       /* Abstand zwischen Logo und Links */
+}
+
+nav {
+  display: flex;            /* Damit die Links nebeneinander sind */
+}
+
+nav a {
+  text-decoration: none;    /* Keine Unterstreichung der Links */
+  color: white;             /* Weiße Links */
+  margin-right: 20px;       /* Abstand zwischen den Links */
+ }
+.banner {
+  width: 50%;              /* Bild volle Breite */
+  max-height: 500px;        /* Maximalhöhe */
+  object-fit: cover;        /* Bildgröße anpassen */
+  float: left;              /* Bild links */
+  border-radius: 10px;     
+}
+.banner1 {
+  width: 50%;              /* Bild volle Breite */
+  max-height: 500px;        /* Maximalhöhe */
+  object-fit: cover;        /* Bildgröße anpassen */
+  float: right;             /* Bild rechts */
+  margin-top: 500px;         /* Abstand nach oben */
+  border-radius: 10px
+}
+.banner2 {
+  width: 50%;              /* Bild volle Breite */
+  max-height: 500px;        /* Maximalhöhe */
+  object-fit: cover;        /* Bildgröße anpassen */
+  float: right;             /* Bild rechts */
+  margin-top: 500px;        /* Abstand nach oben */
+  border-radius: 10px;
+}
+/* Footer */
+.site-footer {
+  background-color: #333;       /* Dunkelgrauer Hintergrund */
+  color: white;                 /* Weiße Schrift */
+  padding: 20px;                /* Abstand oben, unten, links, rechts */
+  text-align: center;           /* Zentrierter Text */
+  margin-top: 1800px;
+}
+
+.footer-column ul {
+  list-style: none;             /* Keine Aufzählungszeichen */
+  padding: 0;                   /* Kein innerer Abstand */
+}
+
+.footer-column a {
+  color: #ccc;                  /* Linkfarbe */
+  text-decoration: none;        /* Keine Unterstreichung */
+}
+
+.footer-column a:hover {
+  text-decoration: underline;   /* Unterstrich bei Hover */
+}
